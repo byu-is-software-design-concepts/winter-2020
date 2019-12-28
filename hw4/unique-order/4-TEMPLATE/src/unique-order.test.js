@@ -1,4 +1,4 @@
-import { uniqueInOrder } from './4-TEMPLATE' // TODO: Update this file to yours
+import { uniqueInOrder } from './unique-order'
 
 describe('When putting unique letters in order', () => {
   it('should return nothing for an empty string', () => {

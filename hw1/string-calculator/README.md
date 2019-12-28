@@ -1,5 +1,9 @@
 # String Calculator Kata
 
+## Setup
+
+To run the file, in the terminal run `node script-name`
+
 ## Instructions
 
 Create a simple class `StringCalculator` with a method `Add` that takes in one parameter of type string called `nums`.

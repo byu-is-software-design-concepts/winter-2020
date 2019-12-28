@@ -1,4 +1,4 @@
-import { moveZeroesToEnd } from './4-TEMPLATE' // TODO: Update this file to yours
+import { moveZeroesToEnd } from './zeroes' // TODO: Update this file to yours
 
 describe('When moving zeroes to the end', () => {
   it('should move the zeroes with an array of numbers', () => {

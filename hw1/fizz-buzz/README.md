@@ -1,0 +1,17 @@
+# String Calculator Kata
+
+## Setup
+
+To run the file, in the terminal run `node script-name`
+
+## Instructions
+
+Write a function that returns a number, "Fizz", "Buzz", or "FizzBuzz".
+
+For each multiple of 3, print "Fizz" instead of the number.
+
+For each multiple of 5, print "Buzz" instead of the number.
+
+For numbers which are multiples of both 3 and 5, print "FizzBuzz" instead of the number.
+
+For all other cases, return the number.
