@@ -7,7 +7,7 @@ describe('When validating the x and o count', () => {
 
     expect(result).toEqual(expected)
   })
-  it('should return false on  notequal x and o strings', () => {
+  it('should return false on  not equal x and o strings', () => {
     const result = isXAndOValid('xxooo')
     const expected = false
 
