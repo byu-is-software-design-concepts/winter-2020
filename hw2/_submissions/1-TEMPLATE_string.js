@@ -1,7 +1,16 @@
 class StringCalculator {
   Add(nums) {
     // TODO
-    return nums
+    let sum = 0
+    let splitStr = []
+    if (nums.includes(',')) {
+       splitStr = nums.split(',')
+    }
+    else { splitStr = nums.split('') }
+    for (let i = 0; i < splitStr.length; i++) {
+      sum += parseInt(splitStr[i])
+    }
+    return sum
   }
 }
 
