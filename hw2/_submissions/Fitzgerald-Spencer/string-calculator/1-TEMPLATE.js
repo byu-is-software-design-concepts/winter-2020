@@ -1,7 +1,14 @@
 class StringCalculator {
   Add(nums) {
-    // TODO
-    return nums
+    let total = 0;
+    const numsArray = nums.split(',');
+    
+    numsArray.forEach(num => {
+      num = Number(num);
+      total += num;      
+    });
+
+    return total;
   }
 }
 
