@@ -1,6 +1,7 @@
 class StringCalculator {
   Add(nums) {
     let numArray = nums.split(',')
+    if (numArray.length > 2) { return "Error: More than 2 numbers found in string."}
     let sum = 0
     for (let number of numArray) {
       sum += Number(number)
