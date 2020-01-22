@@ -1,7 +1,11 @@
 class StringCalculator {
   Add(nums) {
-    // TODO
-    return nums
+    let numArray = nums.split(',')
+    let sum = 0
+    for (let number of numArray) {
+      sum += Number(number)
+    }
+    return sum
   }
 }
 
