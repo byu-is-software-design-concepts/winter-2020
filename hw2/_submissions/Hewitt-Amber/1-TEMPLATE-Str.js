@@ -1,0 +1,48 @@
+class StringCalculator {
+    Add(nums) {
+        if (nums != "") {
+            let split = nums.split(",")
+
+            function convert() {
+                for (let i = 0; i < split.length; i++) {
+                    split[i] = parseInt(split[i].replace(" ", ""));
+                }
+            }
+
+            function AddStuff(total, num) {
+                return total + num;
+            }
+
+            convert();
+            nums = split.reduce(AddStuff);
+        } else {
+            nums = 0;
+        }
+
+    return nums
+  }
+}
+
+////////////////////////// tests //////////////////////////
+stringCalc = new StringCalculator()
+
+let result = stringCalc.Add('')
+let expected = 0
+
+console.log('Testing adding no numbers')
+console.log(`Test passed: ${expected === result}`)
+console.log('')
+
+result = stringCalc.Add('1')
+expected = 1
+
+console.log('Testing adding 1 number')
+console.log(`Test passed: ${expected === result}`)
+console.log('')
+
+result = stringCalc.Add('1,2')
+expected = 3
+
+console.log('Testing adding 2 numbers')
+console.log(`Test passed: ${expected === result}`)
+console.log('')
