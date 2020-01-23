@@ -1,6 +1,25 @@
 function persistence(num) {
+  function multiply (array) {
+    var sum=1;
+    for (var i=0; i<array.length; i++) {
+        sum = sum * array[i];
+    } 
+    return sum;
+}
   const times = 0
+  var count = 0
   // TODO: Calculate "persistence"
+  var n = num.toString();
+  while (n.length > 1){
+    count +=1;
+    var matches = n.match(/(\d)/g);
+    console.log(matches)
+    num = multiply(matches);
+    n = num.toString();
+    console.log(n)
+  }
+  
+  return count;
   return times;
 }
 

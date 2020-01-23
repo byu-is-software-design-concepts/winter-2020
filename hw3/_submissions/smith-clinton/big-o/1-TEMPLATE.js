@@ -22,31 +22,32 @@ function breakTheLoop() {
     //Exits the loop right away
   }
 }
-//Answer: O(n)
+//Answer: O(2^n)
 function recursiveFibonnacci(num) {
   if (num <= 1) return num;
   return fibonacci(num - 2) + fibonacci(num - 1);
+  //2 nodes can be added to each layer potentially
 }
 //Answer: O(n)
 function printFirstItemThenFirstHalfThenSayHi100Times(arr, size) {
-  console.log("First element of array = %d\n", arr[0]);
+  console.log("First element of array = %d\n", arr[0]); // Runs one time = O(1)
 
-  for (let i = 0; i < size / 2; i++) {
+  for (let i = 0; i < size / 2; i++) { // Loops through half = O(n/2)
     console.log(arr[i]);
   }
 
-  for (let i = 0; i < 100; i++) {
+  for (let i = 0; i < 100; i++) { // Loops through 100 times = O(100)
     console.log("Hi\n");
   }
 }
-//Answer: O(n)
+//Answer: O(n^2)
 function printAllNumbersThenAllPairSums(arr, size) {
-  for (let i = 0; i < size; i++) {
+  for (let i = 0; i < size; i++) { // Loops through whole size = O(n)
     console.log(arr[i]);
   }
 
   for (let i = 0; i < size; i++) {
-    for (let j = 0; j < size; j++) {
+    for (let j = 0; j < size; j++) { //Double loop = O(n^2)
       console.log(arr[i] + arr[j]);
     }
   }
