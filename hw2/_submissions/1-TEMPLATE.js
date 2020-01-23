@@ -1,19 +1,7 @@
 let getFizzBuzz = num => {
-  
-  if(num % 5 === 0 && num % 3 === 0) {
-    num = 'FizzBuzz'
-  }
-  else if(num % 5 === 0){
-    num == 'Buzz'
-  }
-  else if(num % 3 === 0){
-    num == 'Fizz'
-  }
-
+  // TODO
   return num
 }
-
-console.log(`yeah whooo number:  ${getFizzBuzz(3)}`)
 
 ////////////////////////// tests //////////////////////////
 
@@ -27,7 +15,7 @@ console.log('')
 result = getFizzBuzz(3)
 expected = 'Fizz'
 
-console.log('Testing multiple of 3 three three')
+console.log('Testing multiple of 3')
 console.log(`Test passed: ${expected === result}`)
 console.log('')
 
