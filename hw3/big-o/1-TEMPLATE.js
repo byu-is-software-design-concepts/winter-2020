@@ -14,10 +14,8 @@ function loopTheLoop() {
 
 function breakTheLoop() {
   for (let i = 0; i < 45; i++) {
-    for (let j = 1; j < 47; j++) {
-      console.log(i, j);
-      break;
-    }
+    console.log(i);
+    break;
   }
 }
 
