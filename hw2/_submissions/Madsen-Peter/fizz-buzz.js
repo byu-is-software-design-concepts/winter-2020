@@ -1,13 +1,18 @@
 let getFizzBuzz = num => {
-  // TODO
-  if (num % 5 === 0) {
-    if (num % 3 === 0) {
-      return 'FizzBuzz'
-    }
-    return 'Buzz'
-  } else if (num % 3 === 0) {
-    return 'Fizz'
+  
+  if ((num % 3 === 0) && (num % 5 === 0))
+  {
+    num = 'FizzBuzz'
   }
+  else if (num % 3 === 0)
+  {
+    num = 'Fizz'
+  }
+  else if (num % 5 === 0)
+  {
+    num = 'Buzz'
+  }
+
   return num
 }
 

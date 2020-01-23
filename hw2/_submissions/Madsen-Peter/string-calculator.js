@@ -1,21 +1,30 @@
 class StringCalculator {
   Add(nums) {
-    // TODO
-    let sum = 0;
-    nums = nums.split(",")
-    console.log(nums)
-    if (nums.length === 1 && nums[0] === '') {
+
+    if (nums == '')
+    {
       return 0
     }
-    for(let num of nums) {
-      num = parseInt(num)
-      sum += num
+    else
+    {
+      let toAdd = []
+      toAdd = nums.split(',')
+
+      console.log(toAdd)
+      nums = 0
+      let iCount = 0
+      for (iCount = 0; iCount < toAdd.length; iCount++)
+      {
+        nums += parseInt(toAdd[iCount])
+      }
     }
-    return sum
+    
+    return nums
   }
 }
 
 ////////////////////////// tests //////////////////////////
+
 stringCalc = new StringCalculator()
 
 let result = stringCalc.Add('')
