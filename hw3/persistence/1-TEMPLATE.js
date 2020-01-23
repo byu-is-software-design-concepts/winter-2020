@@ -1,6 +1,7 @@
 function persistence(num) {
+  const times = 0
   // TODO: Calculate "persistence"
-  return num;
+  return times;
 }
 
 ////////////////////////// tests //////////////////////////
