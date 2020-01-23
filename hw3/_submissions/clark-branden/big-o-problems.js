@@ -6,10 +6,10 @@ function looper(input) {
   });
 }
 
-
-// Answer: O(n^2) or quadriatic
+// Answer: O(s * f) (n can really be any variable)
 function loopTheLoop(firstSize, secondSize) {
-  // Iterates through "secondSize" times for each "firstSize" => O(n*n) or O(n^2)
+  // Remember, use different variables for different inputs
+  // Iterates through "secondSize" times for each "firstSize" => O(second * first) or O(s * f)
   for (let i = 0; i < firstSize; i++) {
     for (let j = 1; j < secondSize; j++) {
       console.log(i, j);
@@ -17,17 +17,13 @@ function loopTheLoop(firstSize, secondSize) {
   }
 }
 
-
 // Answer: O(1) or constant
-function breakTheLoop() {
-  for (let i = 0; i < 45; i++) {
-    for (let j = 1; j < 47; j++) {
-      console.log(i, j);
-      break; // Logs "0, 1" and then exits the loops => O(1)
-    }
+function breakTheLoop(innerSize) {
+  for (let i = 0; i < innerSize; i++) {
+    console.log(i);
+    break; // Logs "0" and then exits the loops. So it only runs once => O(1)
   }
 }
-
 
 // Answer: O(2^n) or exponential
 function recursiveFibonnacci(num) {
@@ -49,7 +45,6 @@ function recursiveFibonnacci(num) {
 //    /   \
 // fib(1) fib(0)                    potential of 8
 
-
 //Answer: O(n) or linear
 function printFirstItemThenFirstHalfThenSayHi100Times(arr, size) {
   console.log("First element of array = %d\n", arr[0]); // Runs once => O(1)
@@ -67,17 +62,16 @@ function printFirstItemThenFirstHalfThenSayHi100Times(arr, size) {
 // Add them all together => O(1 + n/2 + 100)
 // Drop constants => O(n)
 
-
-//Answer: O(n^2) or quadriatic
-function printAllNumbersThenAllPairSums(arr, size) {
-  for (let i = 0; i < size; i++) {
-    // Loops through "size" times => O(n)
+//Answer: O(n^2) or quadratic
+function printAllNumbersThenAllPairSums(arr) {
+  for (let i = 0; i < arr.length; i++) {
+    // Loops through the entire array => O(n)
     console.log(arr[i]);
   }
 
-  for (let i = 0; i < size; i++) {
-    // Double loop so we already know it's O(n^2)
-    for (let j = 0; j < size; j++) {
+  for (let i = 0; i < arr.length; i++) {
+    // Double loop of the same variable so we already know it's O(n^2)
+    for (let j = 0; j < arr.length; j++) {
       console.log(arr[i] + arr[j]);
     }
   }
