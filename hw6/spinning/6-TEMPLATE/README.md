@@ -1,4 +1,4 @@
-# String Calculator Kata
+# Spinning
 
 ## Setup
 
