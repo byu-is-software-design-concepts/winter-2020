@@ -1,5 +1,5 @@
 // Answer: O(n)
-//loops through every element of input
+// loops through each item, linear
 function looper(input) {
   input.forEach(item => {
     console.log(item);
@@ -7,33 +7,34 @@ function looper(input) {
 }
 
 // Answer: O(a * b)
-//loops only i * j so not expoential
-function loopTheLoop() {
-  for (let i = 0; i < 45; i++) {
-    for (let j = 1; j < 47; j++) {
+// its mulitplication because it loops through second
+//size for each first size
+function loopTheLoop(firstSize, secondSize) {
+  for (let i = 0; i < firstSize; i++) {
+    for (let j = 1; j < secondSize; j++) {
       console.log(i, j);
     }
   }
 }
 
 // Answer: O(1)
-// constant value because numbers are hardcoded
-function breakTheLoop() {
-  for (let i = 0; i < 45; i++) {
+//only one output
+function breakTheLoop(innerSize) {
+  for (let i = 0; i < innerSize; i++) {
     console.log(i);
     break;
   }
 }
 
 // Answer: O(2^n)
-// the recurrsiveness of the fibnacci sequence creates a tree
+//fibonacci creates a tree of output which is expoential
 function recursiveFibonnacci(num) {
   if (num <= 1) return num;
-  return fibonacci(num - 2) + fibonacci(num - 1);
+  return recursiveFibonnacci(num - 2) + recursiveFibonnacci(num - 1);
 }
 
-// Answer: O(n)
-// very linear tasks + drop constants
+//Answer: O(n)
+//linear, only loops half
 function printFirstItemThenFirstHalfThenSayHi100Times(arr, size) {
   console.log("First element of array = %d\n", arr[0]);
 
@@ -46,15 +47,15 @@ function printFirstItemThenFirstHalfThenSayHi100Times(arr, size) {
   }
 }
 
-// Answer: O(n^2)
-// double loops through the array
-function printAllNumbersThenAllPairSums(arr, size) {
-  for (let i = 0; i < size; i++) {
+//Answer: O(n^2)
+//loops through entirety, quadratic
+function printAllNumbersThenAllPairSums(arr) {
+  for (let i = 0; i < arr.length; i++) {
     console.log(arr[i]);
   }
 
-  for (let i = 0; i < size; i++) {
-    for (let j = 0; j < size; j++) {
+  for (let i = 0; i < arr.length; i++) {
+    for (let j = 0; j < arr.length; j++) {
       console.log(arr[i] + arr[j]);
     }
   }

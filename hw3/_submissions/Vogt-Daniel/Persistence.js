@@ -1,17 +1,17 @@
+
+
+// It took me too long to figure out the for loop so I
+//changed it to an if statment knowing the parameter
+//passed in would be 2 or 3 digits
 function persistence(num) {
-  let times = 0
-  
-  //write a while loop that will run through
-  //as many times as takes until the ouput is
-  //1 character
+  let times = 0;
 
-  while (num.toString().length != 1){
+  //while loop until num is one digit long
+  while (num.toString().length !=1) {
 
-    //put the number into an array containing each digit as a string
-    var digits = (""+num).split("")
+    //create array of digits
+    let digits = (""+num).split("");
 
-    // I couldn't figure out how to do it with just a for loop
-    //so, knowing they were either 3 or 2 digit numbers, I made an if statment
     if (digits.length == 2){
       num = parseInt(digits[0]) * parseInt(digits[1])
       times++
@@ -20,8 +20,8 @@ function persistence(num) {
       num = parseInt(digits[0]) * parseInt(digits[1]) * parseInt(digits[2])
       times++
     }
-  }
 
+  }
   return times;
 }
 
