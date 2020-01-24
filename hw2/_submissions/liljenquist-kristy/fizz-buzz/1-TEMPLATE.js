@@ -21,7 +21,6 @@ let getFizzBuzz = num => {
 }
 
 ////////////////////////// tests //////////////////////////
-
 let result = getFizzBuzz(1)
 let expected = 1
 
