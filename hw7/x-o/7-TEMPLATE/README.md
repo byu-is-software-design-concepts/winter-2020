@@ -1,4 +1,4 @@
-# String Calculator Kata
+# X's and O's
 
 ## Setup
 
