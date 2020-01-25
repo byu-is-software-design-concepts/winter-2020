@@ -1,14 +1,5 @@
 let getFizzBuzz = num => {
-  
-  if(num % 5 === 0 && num % 3 === 0) {
-    num = 'FizzBuzz'
-  }
-  else if(num % 5 === 0){
-    num == 'Buzz'
-  }
-  else if(num % 3 === 0){
-    num == 'Fizz'
-  }
+  // TODO
 
   return num
 }
