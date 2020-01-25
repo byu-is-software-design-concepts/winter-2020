@@ -1,7 +1,12 @@
 function persistence(num) {
-  const times = 0
-  // TODO: Calculate "persistence"
-  return times;
+  var i = 0 //create output variable 
+  for (i = 0; num > 9; i++) { //loop under single digit
+    num = num //split the numbers so that they can be multiplied
+      .toString()
+      .split("")
+      .reduce((num1, num2) => num1 * num2);
+  }
+  return i;
 }
 
 ////////////////////////// tests //////////////////////////
