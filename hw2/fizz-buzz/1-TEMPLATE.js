@@ -1,10 +1,7 @@
 let getFizzBuzz = num => {
   // TODO
-
   return num
 }
-
-console.log(`yeah whooo number:  ${getFizzBuzz(3)}`)
 
 ////////////////////////// tests //////////////////////////
 
@@ -18,7 +15,7 @@ console.log('')
 result = getFizzBuzz(3)
 expected = 'Fizz'
 
-console.log('Testing multiple of 3 three three')
+console.log('Testing multiple of 3')
 console.log(`Test passed: ${expected === result}`)
 console.log('')
 
