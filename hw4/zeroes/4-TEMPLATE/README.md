@@ -1,4 +1,4 @@
-# String Calculator Kata
+# Zeroes
 
 ## Setup
 
