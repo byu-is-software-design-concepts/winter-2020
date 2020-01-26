@@ -19,7 +19,6 @@
       "name": "Launch Program",
       "skipFiles": ["<node_internals>/**"],
       "program": "${workspaceFolder}/hw2/_submissions/parr-josh/fizz-buzz/1-TEMPLATE.js"
-    },
-    {}
+    }
   ]
 }
