@@ -1,7 +1,13 @@
-function persistence(num) {
-  const times = 0
-  // TODO: Calculate "persistence"
-  return times;
+
+  function persistence(num) {
+    for (var times = 0; num > 9; times++) {
+      num = num
+        .toString()
+        .split("")
+        .reduce((t, c) => c * t);
+    }
+    return times;
+  }
 }
 
 ////////////////////////// tests //////////////////////////
