@@ -37,7 +37,7 @@ function persistence2(num) {
             if (i == 0) {
                 num = Number(numString[i]);
             } else {
-                num = multiple * Number(numString[i]);
+                num = num * Number(numString[i]);
             }
         }
         numString = num.toString();
