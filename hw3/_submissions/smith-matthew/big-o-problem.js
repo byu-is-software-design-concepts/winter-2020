@@ -29,6 +29,9 @@ function breakTheLoop() {
     }
 }
 
+//I had to look at Branden explanation because this one was a little tricky. But with recursive functions
+// the call stack continues to grow depending on N. for each N two calls are made, resulting in exponential
+// growth. This would make it o(2^n).
 function recursiveFibonnacci(num) {
     if (num <= 1) return num;
     return fibonacci(num - 2) + fibonacci(num - 1);
@@ -49,11 +52,14 @@ function printFirstItemThenFirstHalfThenSayHi100Times(arr, size) {
     }
 }
 
+//This one is o(n + n^2) which will simplify down to o(n^2)
 function printAllNumbersThenAllPairSums(arr, size) {
+    //This one loops through the whole array so it is o(n)
     for (let i = 0; i < size; i++) {
         console.log(arr[i]);
     }
 
+    //This one has a nested loop of the same variable, so it is going to be o(n^2)
     for (let i = 0; i < size; i++) {
         for (let j = 0; j < size; j++) {
             console.log(arr[i] + arr[j]);
