@@ -1,6 +1,12 @@
 function persistence(num) {
-  const times = 0
-  // TODO: Calculate "persistence"
+  let times = 0
+
+  while (num > 9) {
+    // I looked at one of the solutions and really liked this one with the reduce function. I found it super handy.
+    num = num.toString().split("").reduce((x,y) => x*y)
+    times++;
+  }
+
   return times;
 }
 
