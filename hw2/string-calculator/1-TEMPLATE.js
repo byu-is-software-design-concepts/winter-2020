@@ -1,13 +1,7 @@
 class StringCalculator {
   Add(nums) {
-    if (nums == "") {
-      return 0;
-    } else if (nums.includes(",")) {
-      let numbers = nums.split(",");
-      return Number(numbers[0]) + Number(numbers[1]);
-    } else {
-      return Number(nums);
-    }
+    // TODO
+    return nums
   }
 }
 
