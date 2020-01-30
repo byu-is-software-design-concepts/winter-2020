@@ -25,22 +25,30 @@
 // of going too crazy here.)
 
 function persistence(num) {
+    // return if we already have a single digit
     if(num.toString().length==1)
         return 0
+    // If we made it this far, we know times is at least equal to 1
     var times = 1;
+    // call the recursive function for the first time
     recurse(num)
     function recurse(num){
+    // parse the number to a string, split it into digits, then map it back to a number
       numSplit = num.toString().split('').map(Number);
+    //   use a loop to loop through each digit in the newly created numSplit array and multiply them all
       var result = numSplit[0]
       for(var i = 1; i < numSplit.length; i++)
           result *= numSplit[i];
+    // Now that we have the result of the multiplication, check to see if the length is 1 digit. If it is, return.
       if(result.toString().length > 1){
           times++;
+        //   If the resulting length is more than 1 digit, recurse again with that number
           recurse(result)
       }
       else
           return times
     }
+    // Because we've been incrementing the variable "times" each time we recurse, we know the answer. return that!
     return times;
   }
 
