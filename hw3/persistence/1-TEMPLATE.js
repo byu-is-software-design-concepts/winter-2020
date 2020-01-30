@@ -1,6 +1,6 @@
 function persistence(num) {
-  // TODO: Calculate "persistence"
-  return num;
+    // TODO:
+    return num
 }
 
 ////////////////////////// tests //////////////////////////
