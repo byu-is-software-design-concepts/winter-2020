@@ -9,7 +9,7 @@ describe('When putting unique letters in order', () => {
   })
   it('should work with duplicated letters', () => {
     const result = uniqueInOrder('AABBC')
-    const expected = ["A", "B", "C"]
-    expect(result) === (expected)
+    const expected = [ 'A', 'B', 'C' ]
+    expect(result).toEqual(expected)
   })
 })

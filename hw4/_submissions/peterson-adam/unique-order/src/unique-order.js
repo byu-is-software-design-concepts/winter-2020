@@ -1,5 +1,9 @@
 export const uniqueInOrder = str => {
   let arr = []
+  if(str.length !== 0)
+  {
+    arr.push(str[0]);
+  }
   let i;
   
   for(i = 0; i < str.length; i++)
@@ -12,5 +16,6 @@ export const uniqueInOrder = str => {
           }
       }
   }
+  console.log(arr);
 return arr
 }
