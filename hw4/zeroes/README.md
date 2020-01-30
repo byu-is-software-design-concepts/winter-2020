@@ -2,7 +2,11 @@
 
 ## Setup
 
-We're now going to use Jest for the tests in our homeworks. In this directory, run `npm install` in order to install the required packages.
+We're now going to use Jest for the tests in our homeworks.
+
+Copy this folder, `zeros`, and paste it under `_submissions/lastname-firstname`
+
+Now in the new directory, run `npm install` in order to install the required packages.
 
 The code is located in the `src` folder.
 
