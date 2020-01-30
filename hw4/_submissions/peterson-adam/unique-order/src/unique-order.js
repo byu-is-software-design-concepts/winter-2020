@@ -1,26 +1,16 @@
 export const uniqueInOrder = str => {
   let arr = []
-
-  function arrayGapChecker ()
-  {
-      let inputString = "AAAABBBCCDAABBBL";
-      let characterArray = inputString.split("");
-      let outputString = characterArray[0];
-      let i;
+  let i;
   
-      for(i = 0; i < characterArray.length; i++)
+  for(i = 0; i < str.length; i++)
+  {
+      if((str[i]) !== str[i+1])
       {
-          if((characterArray[i]) !== characterArray[i+1])
+          if(str[i+1] !== undefined)
           {
-              if(characterArray[i+1] !== undefined)
-              {
-                  outputString = outputString + characterArray[i+1]
-              }
+              arr.push(str[i+1])
           }
       }
-      outputString.substring(0, outputString.length - 1);
-      console.log(outputString);
-  }  
-
-  return arr
+  }
+return arr
 }

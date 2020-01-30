@@ -7,7 +7,9 @@ describe('When putting unique letters in order', () => {
 
     expect(result).toEqual(expected)
   })
-  // TODO: Add more tests
-  // Suggested test: testing a simple string "ABC"
-  // Suggested test: testing duplicated letters "AABBCCCC"
+  it('should work with duplicated letters', () => {
+    const result = uniqueInOrder('AABBC')
+    const expected = ["A", "B", "C"]
+    expect(result) === (expected)
+  })
 })
