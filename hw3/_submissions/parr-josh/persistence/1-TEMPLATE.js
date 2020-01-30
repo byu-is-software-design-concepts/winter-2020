@@ -1,6 +1,19 @@
 function persistence(num) {
-  const times = 0
+  let times = 0;
   // TODO: Calculate "persistence"
+
+  //First I will make a for loop with times = to 0 where num > 9
+  //If the num passed in is not greater than 9 the function will return the persistance of 1 because its a single digit already
+  for (times = 0; num > 9; times++) {
+    //Once in the for loop I will convert the num parameter into a string allowing me to split it, creating an array of digit
+    //Used the reduce method to bring it down to a single digit
+    num = num
+      .toString()
+      .split("")
+      .reduce((x, y) => x * y);
+  }
+
+  console.log(times);
   return times;
 }
 
