@@ -1,23 +1,6 @@
-// Write a function, persistence, that takes in a positive parameter `num` 
-// and returns its multiplicative persistence, 
-// which is the number of times you must multiply the digits in `num` 
-// until you reach a single digit.
-
-
 function persistence(num) {
-  let times = 0
-  newNum = num
-  while (newNum > 9) {
-    let digits = (""+newNum).split("");
-    let realDigits = digits.map(Number)
-    tempNum = 1
-    realDigits.forEach(value => {
-      tempNum *= value
-    })
-    times++;
-    newNum = tempNum
-  }
-  
+  const times = 0
+  // TODO: Calculate "persistence"
   return times;
 }
 
