@@ -13,4 +13,16 @@ describe('When moving zeroes to the end', () => {
 
     expect(result).toEqual(expected)
   })
+  it('should move the zeroes with multiple zeroes in a row', () => {
+    const result = moveZeroesToEnd([true, 0, 0, 'bye', 2, 0, 5, 'hi', 7, 9])
+    const expected = [true, 'bye', 2, 5, 'hi', 7, 9, 0, 0, 0]
+
+    expect(result).toEqual(expected)
+  })
+  it('should work with zeroes already at the end of the array', () => {
+    const result = moveZeroesToEnd([0, false, 0, true, 6, 7, 8, 0, 0])
+    const expected = [false, true, 6, 7, 8, 0, 0, 0, 0]
+
+    expect(result).toEqual(expected)
+  })
 })

@@ -13,4 +13,22 @@ describe('When putting unique letters in order', () => {
 
     expect(result).toEqual(expected)
   })
+  it('should work with repeated letters', () => {
+    const result = uniqueInOrder('ABCABC')
+    const expected = ['A', 'B', 'C', 'A', 'B', 'C']
+
+    expect(result).toEqual(expected)
+  })
+  it('should work with duplicated and repeated letters', () => {
+    const result = uniqueInOrder('AABBCAAACCBBA')
+    const expected = ['A', 'B', 'C', 'A', 'C', 'B', 'A']
+
+    expect(result).toEqual(expected)
+  })
+  it('should work with single letters', () => {
+    const result = uniqueInOrder('ABC')
+    const expected = ['A', 'B', 'C']
+
+    expect(result).toEqual(expected)
+  })  
 })
