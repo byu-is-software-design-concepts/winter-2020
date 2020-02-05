@@ -1,19 +1,7 @@
 function persistence(num) {
-  let times = 0
-  // Since we are looking for a single digit number, we'll do a while loop until our number is lower than 10. 
-    //We have to split the number and then mulply each piece of the array using a reduce function.
-    //We'll count the number of times we do this with a variable and then return the variable as our result.
-
-    while ( num > 9) {
-        num = num.toString()
-        num = num.split("")
-        num = num.reduce(function (product, value) { return product * value; })
-        times += 1
-    }
-
-
-
-  return times;
+    const times = 0
+    // TODO: Calculate "persistence"
+    return times;
 }
 
 ////////////////////////// tests //////////////////////////
