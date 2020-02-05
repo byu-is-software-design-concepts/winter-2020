@@ -10,7 +10,7 @@ Now in the new directory, run `npm install` in order to install the required pac
 
 The code is located in the `src` folder.
 
-Run `npm run test` to verify if tests are passing or not.
+Run `npm run test` to verify if tests are passing or not. Remember, you have to be in the directory for this command to work.
 
 ## Instructions
 
