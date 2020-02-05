@@ -8,10 +8,10 @@ export const moveZeroesToEnd = arr => {
       arr.splice(i, 1)
     }
   }
-  const newArr = arr
+  const myArr = arr
   for (var x = 0; x < zeroes; x++) {
-    newArr.push(0)
+    myArr.push(0)
   }
-  console.log(newArr)
-  return newArr
+  console.log(myArr)
+  return myArr
 }
