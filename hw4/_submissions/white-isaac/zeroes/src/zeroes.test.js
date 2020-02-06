@@ -7,7 +7,16 @@ describe('moveZeroesToEnd', () => {
 
     expect(result).toEqual(expected)
   })
-  // TODO: Add more tests
-  // Suggested test: testing with multiple types (boolean, strings)
-  // Suggested test: testing multiple 0's in the array
+  it('moves zero to end with multiple types', () => {
+    const result = moveZeroesToEnd([false,1,1,2,0,1,3,"a"])
+    const expected = [false,1,1,2,1,3,"a",0]
+
+    expect(result).toEqual(expected)
+  })
+  it('moves zero to end with multiple types and many zeros', () => {
+    const result = moveZeroesToEnd([0,false,1,0,1,2,0,1,3,"a",0])
+    const expected = [false,1,1,2,1,3,"a",0,0,0,0]
+
+    expect(result).toEqual(expected)
+  })
 })
