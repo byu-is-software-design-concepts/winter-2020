@@ -1,8 +1,8 @@
 export const moveZeroesToEnd = arr => {
-  for(x of arr){
+  for(let x of arr){
     if(x == 0){
       let indZ = arr.indexOf(x)
-      arr.splice(indZ)
+      arr.splice(indZ, 1)
       arr.push(0)
     }  
   }
