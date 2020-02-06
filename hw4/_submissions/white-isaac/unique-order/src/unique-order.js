@@ -1,5 +1,14 @@
 export const uniqueInOrder = str => {
-  let arr = []
-  // TODO
-  return arr
+  let arr = [];
+  let origArr = str.split("");
+  let lastChar = "";
+
+  origArr.forEach( (chr) => {
+    if (chr !== lastChar) {
+        arr.push(chr);
+        lastChar = chr;
+    }
+  });
+
+  return arr;
 }
