@@ -1,5 +1,7 @@
 export const uniqueInOrder = str => {
-  let arr = []
+  let arr = [];
   // TODO
-  return arr
-}
+  for (i = 0; i < arr.length; i++) {}
+
+  return arr;
+};
