@@ -14,4 +14,11 @@ describe('When putting unique letters in order', () => {
 
     expect(result).toEqual(expected)
   })
+  it('should return the same sequence if there are no duplicates', () => {
+    const result = uniqueInOrder('ABCDEFG')
+    console.log(result)
+    const expected = ['A', 'B', 'C', 'D', 'E', 'F', 'G']
+
+    expect(result).toEqual(expected)
+  })
 })

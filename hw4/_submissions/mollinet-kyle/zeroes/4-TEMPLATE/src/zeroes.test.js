@@ -13,4 +13,10 @@ describe('When moving zeroes to the end', () => {
 
     expect(result).toEqual(expected)
   })
+  it('should be able to handle a bunch of boolean values', () => {
+    const result = moveZeroesToEnd([true, true, 0, false, 0, true, 0, 0, false])
+    const expected = [true, true, false, true, false, 0, 0, 0, 0]
+
+    expect(result).toEqual(expected)
+  })
 })
