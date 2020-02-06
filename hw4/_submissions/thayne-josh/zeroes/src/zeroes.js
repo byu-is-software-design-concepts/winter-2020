@@ -1,13 +1,11 @@
 const moveZeroesToEnd = arr => {
   let zeroArr = []
-  for(item of arr) {
-    if(item == 0)
-      zeroArr.push(item)
+  for(let i = 0; i <= zeroArr.length; i++) {
+    if(arr[i] == 0)
+      zeroArr.push(arr.splice[i])
   }
-  for(item of zeroArr)
-  {
-    arr.push(item)
-    console.log(item)
+  for(let i = 0; i <= zeroArr.length; i++) {
+    arr.push(zeroArr[i])
   }
   return arr
 }
