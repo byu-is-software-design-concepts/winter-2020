@@ -33,8 +33,3 @@ describe('When mumbling words', () => {
     })
   // TODO: Add more tests
 })
-// ```
-// createMumble("abcd")    # "A-Bb-Ccc-Dddd"
-// createMumble("RqaEzty") # "R-Qq-Aaa-Eeee-Zzzzz-Tttttt-Yyyyyyy"
-// createMumble("cwAt")    # "C-Ww-Aaa-Tttt"
-// ```

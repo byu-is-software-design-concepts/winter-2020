@@ -20,12 +20,3 @@ export const createMumble = str => {
     }
     return result;
 }
-
-// Complete the function `createMumble(str)`. The following examples show the mumble pattern.
-
-// ```
-// createMumble("abcd")    # "A-Bb-Ccc-Dddd"
-// createMumble("RqaEzty") # "R-Qq-Aaa-Eeee-Zzzzz-Tttttt-Yyyyyyy"
-// createMumble("cwAt")    # "C-Ww-Aaa-Tttt"
-// createMumble("")        # ""
-// ```
