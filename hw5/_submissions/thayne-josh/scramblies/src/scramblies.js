@@ -5,10 +5,10 @@ export const scramble = (str1, str2) => {
     while(count < str2.length) {
      {
       if(str1.includes(str2[count])) {
-        contains = true;
+        contains = true
       }
       else {
-        contains = false;
+        contains = false
         count = str2.length
       }
       
