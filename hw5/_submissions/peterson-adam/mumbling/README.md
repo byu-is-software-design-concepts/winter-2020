@@ -1,4 +1,4 @@
-# Scramblies
+# Mumbling
 
 ## Setup
 
@@ -12,9 +12,11 @@ Run `npm run test` to verify if tests are passing or not. Remember, you have to 
 
 ## Instructions
 
-Complete the function `scramble(str1, str2)` that returns true if a portion of str1 characters can be rearranged to match str2, otherwise returns false.
+Complete the function `createMumble(str)`. The following examples show the mumble pattern.
 
-- For example:
-  - `scramble('wrold', 'world') === true`
-  - `scramble('rkqodlw', 'world') === true`
-- Only lower case letters will be used (a-z). No punctuation or digits will be included.
+```
+createMumble("abcd")    # "A-Bb-Ccc-Dddd"
+createMumble("RqaEzty") # "R-Qq-Aaa-Eeee-Zzzzz-Tttttt-Yyyyyyy"
+createMumble("cwAt")    # "C-Ww-Aaa-Tttt"
+createMumble("")        # ""
+```
