@@ -1,4 +1,4 @@
-# Scramblies
+# camelCase
 
 ## Setup
 
@@ -12,9 +12,8 @@ Run `npm run test` to verify if tests are passing or not. Remember, you have to 
 
 ## Instructions
 
-Complete the function `scramble(str1, str2)` that returns true if a portion of str1 characters can be rearranged to match str2, otherwise returns false.
+Write the function `convertToCamelCase(str)`. All words must have their first letter capitalized without spaces.
 
-- For example:
-  - `scramble('wrold', 'world') === true`
-  - `scramble('rkqodlw', 'world') === true`
-- Only lower case letters will be used (a-z). No punctuation or digits will be included.
+- For example
+  - `hello case` should return `helloCase`
+  - `my camel case word` should return `myCamelCaseWord`
