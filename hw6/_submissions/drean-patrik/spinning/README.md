@@ -1,4 +1,4 @@
-# Scramblies
+# Spinning
 
 ## Setup
 
@@ -12,9 +12,7 @@ Run `npm run test` to verify if tests are passing or not. Remember, you have to 
 
 ## Instructions
 
-Complete the function `scramble(str1, str2)` that returns true if a portion of str1 characters can be rearranged to match str2, otherwise returns false.
+Write a function `spinWords(sentence)` that takes in a string of one or more words, and returns the same string, but with all five or more letter words reversed. Strings passed in will consist of only letters and spaces. Spaces will be included only when more than one word is present.
 
 - For example:
-  - `scramble('wrold', 'world') === true`
-  - `scramble('rkqodlw', 'world') === true`
-- Only lower case letters will be used (a-z). No punctuation or digits will be included.
+  - `"Stopping Spinning My Words"` should return `"Stop gninnipS My sdroW"`

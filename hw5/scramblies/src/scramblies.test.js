@@ -1,8 +1,8 @@
 import { scramble } from './scramblies'
 
 describe('When validating scrambled words', () => {
-  it('should return true for words with the same exact letters', () => {
-    const result = scramble('owrdl', 'world')
+  it('should return true for an empty string', () => {
+    const result = scramble('', '')
     const expected = true
 
     expect(result).toEqual(expected)
