@@ -12,6 +12,5 @@ describe('When moving zeroes to the end', () => {
     const expected = [3, 2, false, 'hello', 1, 0, 0]
 
     expect(result).toEqual(expected)
-    // made change for pull request
   })
 })
