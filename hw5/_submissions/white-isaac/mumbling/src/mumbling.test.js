@@ -7,5 +7,23 @@ describe('When mumbling words', () => {
 
     expect(result).toEqual(expected)
   })
-  // TODO: Add more tests
+  it('should capitalize the first letter', () => {
+    const result = createMumble('a')
+    const expected = 'A'
+
+    expect(result).toEqual(expected)
+  })
+  it('should insert the dash and print the second char one more time', () => {
+    const result = createMumble('ab')
+    const expected = 'A-Bb'
+
+    expect(result).toEqual(expected)
+  })
+  
+  it('should handle long strings', () => {
+    const result = createMumble('RqaEzty')
+    const expected = "R-Qq-Aaa-Eeee-Zzzzz-Tttttt-Yyyyyyy"
+
+    expect(result).toEqual(expected)
+  })
 })
