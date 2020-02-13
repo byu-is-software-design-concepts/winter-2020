@@ -7,5 +7,25 @@ describe('When mumbling words', () => {
 
     expect(result).toEqual(expected)
   })
-  // TODO: Add more tests
+  
+  it('Should work with abcd', () => {
+    const result = createMumble('abcd');
+    const expected = 'A-Bb-Ccc-Dddd';
+
+    expect(result).toEqual(expected);
+  })
+
+  it('should work with 7 letters', () => {
+    const result = createMumble('RqaEzty');
+    const expected = 'R-Qq-Aaa-Eeee-Zzzzz-Tttttt-Yyyyyyy';
+
+    expect(result).toEqual(expected);
+  })
+
+  it('should work with a single letter', () => {
+    const result = createMumble('a');
+    const expected = 'A';
+
+    expect(result).toEqual(expected);
+  });
 })
