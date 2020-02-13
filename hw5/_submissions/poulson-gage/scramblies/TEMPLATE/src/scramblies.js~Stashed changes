@@ -1,0 +1,13 @@
+export const scramble = (str1, str2) => {
+<<<<<<< HEAD:hw5/scramblies/src/scramblies.js
+  // TODO
+  return undefined
+=======
+    for(let i = 0; i < str2.length; i++){
+      if(str1.includes(str2.charAt(i)) === false){
+        return false
+      }
+    }
+  return true
+>>>>>>> poulson-gage:hw5/scramblies/TEMPLATE/src/scramblies.js
+}
