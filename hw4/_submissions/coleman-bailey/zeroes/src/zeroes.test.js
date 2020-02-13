@@ -11,8 +11,8 @@ describe('moveZeroesToEnd', () => {
 
   // Suggested test: testing with multiple types (boolean, strings)
   it('should move one zero to the end with an array of different data types', () => {
-    const result = moveZeroesToEnd(['Hannah', 0, 21, 'Logan', true])
-    const expected = ['Hannah', 21, 'Logan', true, 0]
+    const result = moveZeroesToEnd(['Hannah', 0, 22, 'Logan', true])
+    const expected = ['Hannah', 22, 'Logan', true, 0]
 
     expect(result).toEqual(expected)
   })
