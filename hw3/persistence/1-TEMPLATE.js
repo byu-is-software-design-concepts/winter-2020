@@ -1,6 +1,20 @@
 function persistence(num) {
+<<<<<<< HEAD
   const times = 0
   // TODO: Calculate "persistence"
+=======
+  let times = 0;
+  while (num > 9) {
+    //break number into an array
+    let numArray = []
+    numArray = [...String(num)]
+    //take array to a single number
+    num = numArray.reduce((a, b) => a * b)
+    //console.log(num)
+    //iterate times
+    times = times + 1;
+  }
+>>>>>>> holle-tanner
   return times;
 }
 
