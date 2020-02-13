@@ -18,3 +18,7 @@ export const scramble = (str1, str2) => {
   
   return Characters
 }
+<<<<<<< Updated upstream
+=======
+
+>>>>>>> Stashed changes
