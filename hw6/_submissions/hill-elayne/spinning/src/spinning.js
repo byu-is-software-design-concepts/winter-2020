@@ -1,10 +1,17 @@
-export const spinWords = sentence => {
-    let stringArr = sentence.split(' ')
-    for (let i = 0; i < stringArr.length; i++) {
-      if(stringArr[i].length > 4) {
-        stringArr[i] = stringArr[i].split('').reverse().join('')
-      }
-    }
-    sentence = stringArr.join(' ')
-    return sentence
-  }
+export const spinWords = sentence => {
+  let words = sentence.split(" ")
+  let iCount = 0
+
+  for (let word of words) {
+    let letters = word.split("");
+    if (letters.length >= 5) {
+        letters = letters.reverse();
+    }
+    words[iCount] = letters.join("")
+    iCount++
+}
+
+sentence = words.join(" ");
+
+  return sentence
+}

@@ -7,20 +7,17 @@ describe('When getting the fibonacci number', () => {
 
     expect(result).toEqual(expected)
   })
-<<<<<<< HEAD
-  // TODO: Write more tests
-=======
-  it('should return the correct number for low values', () => {
+  it('4 should return 3', () => {
     const result = getFibNumber(4)
     const expected = 3
 
     expect(result).toEqual(expected)
   })
-  it('should return the correct number for higher values', () => {
+
+  it('15 should return 610', () => {
     const result = getFibNumber(15)
     const expected = 610
 
     expect(result).toEqual(expected)
   })
->>>>>>> db8738fcbca9cd49a7dcd2e5fc52f53a5707f382
 })
