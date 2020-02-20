@@ -10,15 +10,7 @@ Run `npm run test` to verify if tests are passing or not.
 
 ## Instructions
 
-The Fibonacci sequence, named after mathematician Fibonacci, is a sequence of numbers that looks like this:
+Write a function `spinWords(sentence)` that takes in a string of one or more words, and returns the same string, but with all five or more letter words reversed. Strings passed in will consist of only letters and spaces. Spaces will be included only when more than one word is present.
 
-`0, 1, 1, 2, 3, 5, 8, 11, 19`
-
-You get first two starting numbers, 0 and 1, and the next number in the sequence is always the sum of the previous two numbers.
-
-You should write the function `getFibNumber(steps)` that returns a number from the Fibonacci sequence, based on the parameter `steps`, which determines the position in Fibonacci number.
-
-- For example
-  - `0` should return `0`
-  - `4` should return `3`
-  - `15` should return `610`
+- For example:
+  - `"Stopping Spinning My Words"` should return `"Stop gninnipS My sdroW"`
