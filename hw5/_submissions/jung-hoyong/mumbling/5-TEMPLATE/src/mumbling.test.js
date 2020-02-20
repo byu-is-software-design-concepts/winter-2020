@@ -1,0 +1,22 @@
+import { createMumble } from './mumbling'
+
+describe('When mumbling words', () => {
+  it('should mumble a word of 3 letters', () => {
+    const result = createMumble('tom')
+    const expected = 'T-Oo-Mmm'
+
+    expect(result).toEqual(expected)
+  })
+  it('should mumble a word of 7 letters', () => {
+    const result = createMumble('RqaEzty')
+    const expected = 'R-Qq-Aaa-Eeee-Zzzzz-Tttttt-Yyyyyyy'
+
+    expect(result).toEqual(expected)
+  })
+  test('should mumble a word of 10 letters', () => {
+    const result = createMumble('qmdvjendks')
+    const expected = 'Q-Mm-Ddd-Vvvv-Jjjjj-Eeeeee-Nnnnnnn-Dddddddd-Kkkkkkkkk-Ssssssssss'
+    
+    expect(result).toEqual(expected)
+  })
+})
