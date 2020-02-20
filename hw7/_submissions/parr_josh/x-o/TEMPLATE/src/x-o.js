@@ -5,7 +5,6 @@ export const isXAndOValid = str => {
   let oCount = 0;
 
   xoSentence = str.toLowerCase().split("");
-  console.log(xoSentence);
 
   for (let counter = 0; counter < xoSentence.length; counter++) {
     if (xoSentence[counter] == "x") {
