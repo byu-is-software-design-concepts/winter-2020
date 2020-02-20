@@ -19,5 +19,5 @@ describe('When spinning words', () => {
 
     expect(result).toEqual(expected)
   })
-  // TODO: Add more tests
+  
 })
