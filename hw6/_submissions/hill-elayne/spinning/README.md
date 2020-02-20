@@ -2,6 +2,7 @@
 
 ## Setup
 
+<<<<<<< HEAD
 Copy this folder and paste it under `_submissions/lastname-firstname`.
 
 Now in the new directory, run `npm install` in order to install the required packages.
@@ -9,6 +10,13 @@ Now in the new directory, run `npm install` in order to install the required pac
 The code is located in the `src` folder.
 
 Run `npm run test` to verify if tests are passing or not. Remember, you have to be in the directory for this command to work.
+=======
+In this directory, run `npm install` in order to install the required packages.
+
+The code is located in the `src` folder.
+
+Run `npm run test` to verify if tests are passing or not.
+>>>>>>> db8738fcbca9cd49a7dcd2e5fc52f53a5707f382
 
 ## Instructions
 
