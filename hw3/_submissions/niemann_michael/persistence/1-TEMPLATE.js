@@ -1,6 +1,9 @@
 function persistence(num) {
-  const times = 0
-  // TODO: Calculate "persistence"
+  let times = 0
+  while (String(num).length != 1){
+    num = [...String(num)].reduce((a, b) => a * b);
+    times += 1;
+  }
   return times;
 }
 
