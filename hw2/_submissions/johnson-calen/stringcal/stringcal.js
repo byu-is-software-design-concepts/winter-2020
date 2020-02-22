@@ -1,7 +1,25 @@
 class StringCalculator {
   Add(nums) {
-    // TODO
-    return nums
+    let parsed;
+    let newNum;
+    let total = 0;
+    //Checks to see if blank
+    if(nums == '') {
+      return 0
+    }
+    else 
+    //Splits the string up using commas
+    parsed = nums.split(",")
+
+    //Turns split strings into ints and adds them
+    for(let i = 0; i < parsed.length; ++i){
+    newNum = parseInt(parsed[i])
+    total = total + newNum
+    //console.log(newNum)
+    //console.log(total)
+    }
+    
+    return total
   }
 }
 
