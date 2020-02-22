@@ -1,16 +1,13 @@
 class StringCalculator {
   Add(nums) {
-    const numArr = nums.split(",")
-    if (numArr[0] == '') {
-      return 0
+    nums=nums.split(',')
+    var sum=0
+    for (let index = 0; index < nums.length; index++) {
+      const element = nums[index];
+      sum=Number(element)+sum
     }
-    else if (numArr.length == 1) {
-      return parseInt(nums)
-    }
-    else {
-      const sum = (parseInt(numArr[0]) + parseInt(numArr[1]))
-      return sum
-    }
+    nums=sum
+    return nums
   }
 }
 
