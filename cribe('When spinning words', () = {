@@ -1,0 +1,605 @@
+[33mcommit d1f897919805770578f4b089a6b446ea2bdb9ca2[m[33m ([m[1;36mHEAD -> [m[1;32mholle-tanner-hw-6[m[33m)[m
+Author: TannerHolle <tannerholle96@gmail.com>
+Date:   Wed Feb 19 22:48:08 2020 -0700
+
+    homework 6
+
+[33mcommit 30676337c14ecaec7f28a700b61c1360b2f4674d[m[33m ([m[1;32mmaster[m[33m)[m
+Merge: af24094 2c75919
+Author: TannerHolle <tannerholle96@gmail.com>
+Date:   Wed Feb 12 20:52:48 2020 -0700
+
+    trying to figure this whole thing out
+
+[33mcommit 2c759197319c47a6d44afef13c3ec6e46bee173a[m[33m ([m[1;31morigin/holle-tanner[m[33m, [m[1;32mholle-tanner[m[33m)[m
+Author: TannerHolle <tannerholle96@gmail.com>
+Date:   Wed Feb 12 20:49:39 2020 -0700
+
+    did the homework #5
+
+[33mcommit ef643ccc542754b971b448660678eccfc12f2c21[m
+Author: TannerHolle <tannerholle96@gmail.com>
+Date:   Wed Feb 12 20:42:47 2020 -0700
+
+    not sure what this is doing
+
+[33mcommit 3d7a56e4af31a6c4a06d35e21ce7df7c5dd27a2b[m
+Author: TannerHolle <tannerholle96@gmail.com>
+Date:   Thu Feb 6 10:56:06 2020 -0700
+
+    added so i could re-push
+
+[33mcommit af2409447a29b55a4592bff69be3e5bd2e312299[m
+Author: Patrik <patrikdrean@gmail.com>
+Date:   Thu Feb 6 06:26:33 2020 -0700
+
+    Update hw5
+
+[33mcommit ad0860bc7d480a79b209420cfb91240685d975a0[m
+Author: skoubye <43159767+skoubye@users.noreply.github.com>
+Date:   Wed Feb 5 15:33:06 2020 -0700
+
+    HW4 (#131)
+
+[33mcommit 23f0ac66538035fa30057fa624178c6e66261e65[m
+Author: ppixton <56419742+ppixton@users.noreply.github.com>
+Date:   Wed Feb 5 15:30:53 2020 -0700
+
+    Pixton parker (#129)
+
+[33mcommit cefb20a77a7cd064593cf8331869dfaa13413477[m
+Author: Statler-369 <55514369+Statler-369@users.noreply.github.com>
+Date:   Wed Feb 5 15:29:34 2020 -0700
+
+    Statler Smith HW 4 (#128)
+
+[33mcommit 2c537ebda676c28df3b41b3d21d5dc50382eddf3[m
+Author: cward144 <52828917+cward144@users.noreply.github.com>
+Date:   Wed Feb 5 15:28:18 2020 -0700
+
+    Ward candice (#127)
+
+[33mcommit 706db175e78c6aa890f14ff491aff5397cbae1c6[m
+Author: DallenM <56405642+DallenM@users.noreply.github.com>
+Date:   Wed Feb 5 15:25:24 2020 -0700
+
+    Magill dallen (#133)
+
+[33mcommit 9866bac8128d99dd829f57841c2fddde5480b345[m
+Author: Kristy Liljenquist <kristyknapp14@gmail.com>
+Date:   Wed Feb 5 09:33:08 2020 -0700
+
+    Liljenquist kristy (#120)
+    
+    * completed hw2
+    
+    * finished the string-calculator
+    
+    * completed hw3
+    
+    * finished hw4
+
+[33mcommit 0825a7c797175c5fbf30a750d9638ee4d464b0e6[m
+Author: savbird <56371466+savbird@users.noreply.github.com>
+Date:   Wed Feb 5 09:32:27 2020 -0700
+
+    Bird savannah (#121)
+    
+    * completed both practices
+    
+    * finished hw3
+    
+    * edited both problem files and test files
+
+[33mcommit 4ce8ee8aa21c32305b7c8d977de62fd9953ff657[m
+Author: Colby Nelson <42982990+cnelson27@users.noreply.github.com>
+Date:   Wed Feb 5 09:31:22 2020 -0700
+
+    Finished HW4 (#122)
+    
+    * Finished HW4 with Zeroes and Unique-Order assignments
+    
+    * Adding the zeroes part of the assignment
+
+[33mcommit 125fd369b76f748c6052c0d655a2f9b459681785[m
+Author: Nick Mahe <42980457+nmmahe@users.noreply.github.com>
+Date:   Wed Feb 5 09:28:02 2020 -0700
+
+    Mahe nicholas (#123)
+    
+    * solving exercises
+    
+    * committing hw3
+    
+    * adding comment on persistence
+    
+    * finishing unique js file
+    
+    * finishing zeroes js
+
+[33mcommit 3a2a887e49c89e5332a6e62362b56fca6eadea95[m
+Author: Nicole Tucker <33468092+nicoletucker21@users.noreply.github.com>
+Date:   Wed Feb 5 09:25:30 2020 -0700
+
+    all files added (#125)
+
+[33mcommit 34a5e0d08c0e2cd6924a48a811da8beb2c166f13[m
+Author: wlggraham <56554858+wlggraham@users.noreply.github.com>
+Date:   Wed Feb 5 09:24:17 2020 -0700
+
+    Graham William (#126)
+    
+    * Will Graham's Files
+    
+    * my stuff
+    
+    * change
+    
+    * my files
+    
+    * my changes
+
+[33mcommit b9acb4625c0d67f5afbbb0d30663f3e1abf851ac[m
+Author: TannerHolle <tannerholle96@gmail.com>
+Date:   Tue Feb 4 21:53:49 2020 -0700
+
+    added a file that that didnt get added last time
+
+[33mcommit 23bd8426ff02aba973018ee9e06b9e1e8262b825[m
+Author: TannerHolle <tannerholle96@gmail.com>
+Date:   Tue Feb 4 21:53:07 2020 -0700
+
+    hw 4
+
+[33mcommit 71591f018550738b07f9f3615ff05762ad1932fb[m
+Author: BeauCurnow <43885042+BeauCurnow@users.noreply.github.com>
+Date:   Tue Feb 4 09:01:27 2020 -0700
+
+    Completed HW #2 Exercises (#4)
+    
+    * Completed HW #2 Exercises
+    
+    * HW3
+    
+    * Updated Persistence
+    
+    * HW 4
+
+[33mcommit 1bdc0f761ebdfa1b1d299dc10e7055f898d6437f[m
+Author: dallin35 <56549866+dallin35@users.noreply.github.com>
+Date:   Tue Feb 4 08:40:44 2020 -0700
+
+    Fairbanks dallin (#105)
+    
+    * Attempt at submitting my first homework
+    
+    * Homework 3 attempt
+    
+    * Delete README.md
+    
+    * Delete 1-TEMPLATE.js
+    
+    * Delete 1-TEMPLATE.js
+    
+    * Delete README.md
+    
+    * Delete 1-TEMPLATE.js
+    
+    * Create 1-TEMPLATE.js
+    
+    Trying to restore the overwritten template file
+
+[33mcommit 5086daeb92b7d4ce809ce1d2310280f84112ab82[m
+Author: Chelsia Liu <43692077+chelsialiu@users.noreply.github.com>
+Date:   Tue Feb 4 08:39:38 2020 -0700
+
+    Reverted commit (#119)
+    
+    * Finished solving FizzBuzz and StringCalculator exercises for HW2
+    
+    * Finished FizzBuzz and StringCalculator exercises for HW2
+    
+    * Finished solving Big O problems
+    
+    * Finished Persistence exercises
+    
+    * Deleted Nate Turner's submission from my own
+    
+    * Revert "Deleted Nate Turner's submission from my own"
+    
+    This reverts commit f9cf37836f176ebf73eadb2ed71b6175948f2753.
+
+[33mcommit 644decaa830723049998b4f500b36eb60a39c892[m
+Author: ntturner <nathanturner595@gmail.com>
+Date:   Tue Feb 4 08:38:26 2020 -0700
+
+    HW4 Solution (#118)
+    
+    * Solved fizzbuzz and string calculator exercises.
+    
+    * Solutions for hw3 problems.
+    
+    * Solution for hw4.
+
+[33mcommit 68245a19db6b3008e7836c4819207ad604da36eb[m
+Author: cward144 <52828917+cward144@users.noreply.github.com>
+Date:   Mon Feb 3 14:59:22 2020 -0700
+
+    Homework 2 and 3 (#67)
+    
+    * Homework 2 done
+    
+    * Homework 3
+
+[33mcommit 576c75dab8cb523374a3377b6fcd5ccb6d880a3c[m
+Author: ajhayden <55779059+ajhayden@users.noreply.github.com>
+Date:   Mon Feb 3 14:58:50 2020 -0700
+
+    Hayden aaron (#68)
+    
+    * Committing HW2 - Aaron Hayden
+    
+    * HW3 Aaron Hayden
+    
+    * HW4 Aaron Hayden
+
+[33mcommit 91f60c166477abae4e98cd1049a23d85269cf95f[m
+Author: ppixton <56419742+ppixton@users.noreply.github.com>
+Date:   Mon Feb 3 14:56:41 2020 -0700
+
+    Pixton parker (#70)
+    
+    * finished hw
+    
+    * Finished hw
+
+[33mcommit d64d9928ca5a457426b07e52a124e30cd247c48d[m
+Author: Colby Nelson <42982990+cnelson27@users.noreply.github.com>
+Date:   Mon Feb 3 14:56:15 2020 -0700
+
+    Finished hw3 submissions with comments describing my changes (#71)
+
+[33mcommit 25a472d39158d8ecf36de9eeaf1d3f1d8f992c3e[m
+Author: savbird <56371466+savbird@users.noreply.github.com>
+Date:   Mon Feb 3 14:55:54 2020 -0700
+
+    completed the practices. watched the big-o video posted in slack to help me out, and looked at the solutions for persistence to find the reduce() function. (#72)
+    
+    * completed both practices
+    
+    * finished hw3
+
+[33mcommit 1913c288073af5917a6b43a276be6b591e9eac5f[m
+Author: Spencer Fitzgerald <37751839+fizzle0196@users.noreply.github.com>
+Date:   Mon Feb 3 14:55:32 2020 -0700
+
+    Fitzgerald, Spencer: HW3 (#73)
+    
+    * Finish Big O notation problems
+    
+    * Finish persistence problem
+
+[33mcommit dcb03ee70eed49f837b7a6fe779fce87d7ec0885[m
+Author: Nick Mahe <42980457+nmmahe@users.noreply.github.com>
+Date:   Mon Feb 3 14:54:57 2020 -0700
+
+    Mahe nicholas (#74)
+    
+    * solving exercises
+    
+    * committing hw3
+    
+    * adding comment on persistence
+
+[33mcommit 65763d5d39d8c89fbecc3566e0c2e9a45bb08498[m
+Author: Hoyong Jung <jhoyong57@gmail.com>
+Date:   Mon Feb 3 14:54:20 2020 -0700
+
+    Hoyong Jung hw3 (#77)
+    
+    * Solve fizz-buzz and stringCalculator problems
+    
+    This commit will add the solutions to fizz-buzz and stingCalculator problems. For fizz-buzz, it will print 'Fizz' when num % 3 === 0, 'Buzz' when num % 5 === 0, and 'Fizz-Buzz' when num % 15 === 0. For StringCalculator, I split the string with comma then loop through the array to add the numbers inside of the array.
+    
+    * Hw3 Solution
+    
+    This commit will add a file in the submission folder under my name. I add answers with descriptions on big-o and persistence files.
+    
+    I learned .reduce() function by doing the persistence assignment.
+
+[33mcommit 4146cff39d790607d2992d78fe41406ea15cf55f[m
+Author: zachbmarshall <50930141+zachbmarshall@users.noreply.github.com>
+Date:   Mon Feb 3 14:53:31 2020 -0700
+
+    Marshall zach (#78)
+    
+    * hw2 for Zach Marshall
+    
+    * HW 3 submission
+
+[33mcommit 63de737956b031181d2d01d011179ad8967af8bf[m
+Author: Jared <48331923+starkWebDev@users.noreply.github.com>
+Date:   Mon Feb 3 14:50:28 2020 -0700
+
+    Stark jared (#80)
+    
+    * Solved my exercises
+    
+    * My hw3 submission.
+
+[33mcommit e4bbf530c945c3a203ba2dbb0e4e8cb48b752733[m
+Author: sarahfank <56554765+sarahfank@users.noreply.github.com>
+Date:   Mon Feb 3 14:50:04 2020 -0700
+
+    sarah fankhauser -- hw3 (#81)
+
+[33mcommit 5233c26d249cb446ac10c586e88b5dde70e25665[m
+Author: wlggraham <56554858+wlggraham@users.noreply.github.com>
+Date:   Mon Feb 3 14:49:42 2020 -0700
+
+    Graham william (#82)
+    
+    * Will Graham's Files
+    
+    * my stuff
+
+[33mcommit 8674cc53ec6fe5c69583a8bad4eb25a12e58b2e0[m
+Author: gwpoulson <55993828+gwpoulson@users.noreply.github.com>
+Date:   Mon Feb 3 14:49:06 2020 -0700
+
+    HW3 Commit (#83)
+
+[33mcommit 6c80231e0565321c8960e270dc96a3712bbcde9f[m
+Author: Jparr35 <43352280+joshparr35@users.noreply.github.com>
+Date:   Mon Feb 3 14:48:39 2020 -0700
+
+    Parr josh (#86)
+    
+    * HW2 Josh Parr
+    
+    * Launch.json file
+    
+    * Changes to lauch.json file
+    
+    * launch.json
+    
+    * HW3 submissions folder made for me
+    
+    * Setting up for HW3
+    
+    * Josh Parr - HW3
+    
+    * Remove .vscode from project
+    
+    Co-authored-by: Patrik Drean <patrikdrean@gmail.com>
+
+[33mcommit 8376a5362d00537ff45c7ddec436b61bd859da6b[m
+Author: DallenM <56405642+DallenM@users.noreply.github.com>
+Date:   Mon Feb 3 14:46:32 2020 -0700
+
+    Magill dallen (#87)
+    
+    * Completed HW2
+    
+    * Big-O and Persistence homework
+    
+    * Big-O and Persistence homework
+
+[33mcommit d68186055bfd87cfde390cf8dbb83da118a1d088[m
+Author: jstennett <32586831+jstennett@users.noreply.github.com>
+Date:   Mon Feb 3 14:43:00 2020 -0700
+
+    Finish HW3 (#90)
+
+[33mcommit 31044d3f47551f80e06121371ce6a2dd89568a5f[m
+Author: calebdo <40810952+calebdo@users.noreply.github.com>
+Date:   Mon Feb 3 14:41:25 2020 -0700
+
+    HW3 submission (#98)
+
+[33mcommit c3f75b564861c0eaf6c10c93461cf9727d4c06b8[m
+Author: jdthayne <55454796+jdthayne@users.noreply.github.com>
+Date:   Mon Feb 3 14:40:54 2020 -0700
+
+    Added solutions for big-o and persistence (#101)
+
+[33mcommit efe56c9bf822d5ccc1cd97a69a1f6e7ede0c8094[m
+Author: Demitri Haddad <34491406+demitrih@users.noreply.github.com>
+Date:   Mon Feb 3 14:40:31 2020 -0700
+
+    finished persistence and big-o (#102)
+
+[33mcommit bd8c875441f31c289a1c944364ffc09a1b89e104[m
+Author: Nesdom13 <56526984+Nesdom13@users.noreply.github.com>
+Date:   Mon Feb 3 14:38:47 2020 -0700
+
+    Peter Madsen completed HW3 (#104)
+
+[33mcommit 172d2125a3a3692666bd1ecd6f34502c92de81bc[m
+Author: connormerkley10 <48034371+connormerkley10@users.noreply.github.com>
+Date:   Mon Feb 3 14:36:46 2020 -0700
+
+    HW3 - Merkley Connor (#106)
+    
+    * Connor Merkley HW2 Finished
+    
+    * HW3 - Connor Merkley
+
+[33mcommit 5a01f1eba044f7619b7dd6818451d47caef16467[m
+Author: baileycoleman <43800035+baileycoleman@users.noreply.github.com>
+Date:   Mon Feb 3 09:11:21 2020 -0700
+
+    Finished Hw3 just in the nick of time (#95)
+    
+    * Finished Hw3 just in the nick of time
+    
+    * Finished Hw3 just in the nick of time
+    
+    * Added files back in
+
+[33mcommit 6573198f0fd860923caa49d4089bdb1e362b0840[m
+Merge: 9e1eaac ddaf2c8
+Author: Patrik <patrikdrean@gmail.com>
+Date:   Mon Feb 3 07:03:45 2020 -0700
+
+    Merge branch 'master' of https://github.com/byu-is-software-design-concepts/winter-2020
+
+[33mcommit 9e1eaac289947a6d030e87ab33201980ff07eabf[m
+Author: Patrik <patrikdrean@gmail.com>
+Date:   Mon Feb 3 07:03:34 2020 -0700
+
+    hw4 drean-patrik complete
+
+[33mcommit ddaf2c8c7cba27153dbfc647414986ad6ecbb6ce[m
+Author: jacobphola <56491792+jacobphola@users.noreply.github.com>
+Date:   Mon Feb 3 07:02:23 2020 -0700
+
+    Jacob Hola finished HW3 (#91)
+
+[33mcommit 23aad9f7826b39b64308a492e426fcddac187862[m
+Author: skoubye <43159767+skoubye@users.noreply.github.com>
+Date:   Mon Feb 3 07:01:09 2020 -0700
+
+    HW3 (#93)
+
+[33mcommit 66b8ec3243f61d3b6d3286752bd2999bcf4139de[m
+Author: alecbrettbawden <43965148+alecbrettbawden@users.noreply.github.com>
+Date:   Mon Feb 3 07:00:28 2020 -0700
+
+    Completed HW 3 (#94)
+
+[33mcommit 5c1e40d164c20912309dca55fc2d182bce77bd2b[m
+Author: cmcleod2 <56420438+cmcleod2@users.noreply.github.com>
+Date:   Mon Feb 3 06:58:48 2020 -0700
+
+    Chris McLeod Hw3 (#96)
+
+[33mcommit bd6686667b916340092feb21bef8fe8c2a77df6d[m
+Author: elaynenh <56571370+elaynenh@users.noreply.github.com>
+Date:   Mon Feb 3 06:58:21 2020 -0700
+
+    Elayne Hill completed hw3 (#99)
+    
+    * completed hw2
+    
+    * Completed hw3
+
+[33mcommit d670cbcfe30d2be86bae1054e02689b95e34189d[m
+Author: gardnermt <56484421+gardnermt@users.noreply.github.com>
+Date:   Mon Feb 3 06:58:00 2020 -0700
+
+    HW3 Submission (#100)
+    
+    * HW 2 Solutions (probably not the best way to code them, but whatever.)
+    
+    * HW3 submission
+
+[33mcommit 1e8be7cb0d5f0d7d90d2bec2c90a8a53f92d3e82[m
+Author: Isaac White <43615800+isaacloveschicken@users.noreply.github.com>
+Date:   Mon Feb 3 06:57:32 2020 -0700
+
+    White-Isaac -> Finished HW3 (#107)
+    
+    * added white-isaac folder for hw3
+    
+    * Finished Big O
+    
+    * finished persistence
+
+[33mcommit d76c8fe42fe846f54891f9dfbab87dd838e4a121[m
+Author: Joshua Haines <32722407+Joshua-Haines@users.noreply.github.com>
+Date:   Mon Feb 3 06:54:16 2020 -0700
+
+    haines-josh (#110)
+    
+    * I can commit things with git!
+    
+    * My two files are updated
+
+[33mcommit 8c59d3cf0662eb74ceae22f9651e8b01afe4596a[m
+Author: Statler-369 <55514369+Statler-369@users.noreply.github.com>
+Date:   Mon Feb 3 06:53:17 2020 -0700
+
+    Statler Smith HW3 (#111)
+    
+    I evaluated the Big O functions based on the inputs and the processing.
+    
+    For persistence, I used multiplications of 10 to separate out the input number into the digits. I then multiplied the digits together to generate a new number that I performed the same processing on. I did this until the new number was only one digit. I recorded the number of iterations I went through and returned that result.
+
+[33mcommit 7571172a774eb52656f4deb1e0f49576bf867ec2[m
+Author: Kyle Mollinet <kmolline@byu.edu>
+Date:   Mon Feb 3 06:52:52 2020 -0700
+
+    Mollinet kyle (#112)
+    
+    * finished the persistence problem and the big-o problem and submitted
+    
+    * completed exercise and added comments -Kyle Mollinet
+
+[33mcommit 7100f577bd7a5f8057be056d16cbf1644645aed0[m
+Author: Daniel Vogt <48068623+danthevogt@users.noreply.github.com>
+Date:   Mon Feb 3 06:52:23 2020 -0700
+
+    Vogt daniel (#113)
+    
+    * HW2 Complete
+    
+    * Testing: added note
+    
+    * Completed HW3
+    
+    * Completed HW3
+    
+    * deleted
+    
+    * Test
+    
+    * Finished HW3
+    
+    * test
+    
+    * HW3 D Vogt
+    
+    * finished HW4
+    
+    * finished hw4
+
+[33mcommit 3442369e654409ecdcc41cbfca2220fc64373152[m
+Author: Adam Peterson <32717683+Adam-Peterson@users.noreply.github.com>
+Date:   Mon Feb 3 06:51:38 2020 -0700
+
+    HW 4 Submission (#114)
+    
+    * wrote code for string and fizzbuzz assignments
+    
+    * HW3 completion
+    
+    * initial setup
+    
+    * working methods
+    
+    * working tests
+    
+    * bug fixes
+
+[33mcommit 97b9741a28a4e53adcdfb2d27191c7957ce9d63d[m
+Author: Kyle Adams <43280666+kyleadams789@users.noreply.github.com>
+Date:   Mon Feb 3 06:50:54 2020 -0700
+
+    retesting new SSH (#115)
+
+[33mcommit a22332d93ae6a194366ebf67e4a886ab91c9802e[m
+Author: calebdo <40810952+calebdo@users.noreply.github.com>
+Date:   Mon Feb 3 06:50:19 2020 -0700
+
+    homework 4 submission (#116)
+    
+    * finished hw
+    
+    * pre-hw3
+    
+    * finished homework 3
+    
+    * homework 4
+    
+    * homework4
