@@ -1,5 +1,4 @@
 export const convertToCamelCase = str => {
-  // Lower case the whole string, split string by spaces, loop over array to capitalize, then join array.
   str = str.toLowerCase()
 
   let strings = str.split(' ')
