@@ -18,12 +18,8 @@ export const isXAndOValid = str => {
     
   }
 
-  if (countX == countO) {
-    return true
-  }
+    
+    return countX == countO;
   
-  else {
-    return false
-  }
 
 }
