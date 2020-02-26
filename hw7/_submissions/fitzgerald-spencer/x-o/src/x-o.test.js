@@ -6,6 +6,11 @@ describe('When validating the x and o count', () => {
     const expected = true
 
     expect(result).toEqual(expected)
+  }),
+  it('schould return false if there are 3 xs 2 os and random letters', () => {
+    const result = isXAndOValid('xXxoojksdf');
+    const expected = false;
+
+    expect(result).toEqual(expected);
   })
-  // TODO: Write more tests
 })
