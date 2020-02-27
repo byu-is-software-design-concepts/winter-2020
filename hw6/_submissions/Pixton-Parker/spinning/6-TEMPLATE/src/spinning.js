@@ -23,6 +23,7 @@ export const spinWords = sentence => {
   for (i=0; i<swords.length;i++)
   {
     let back = []
+
     if (swords[i].length > 5)
     {
       for (i2=0; i2<swords[i].length;i2++)
