@@ -2,7 +2,7 @@
 
 Your mission, should you choose to accept it, is to explore the functional side of JavaScript.
 
-(Those choosing not to accept the mission still need to do the homework  ¯\_(ツ)_/¯)
+(Those choosing not to accept the mission still need to do the homework  ¯\\_(ツ)_/¯)
 
 ## Instructions
 
