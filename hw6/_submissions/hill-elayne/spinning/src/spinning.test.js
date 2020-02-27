@@ -7,11 +7,11 @@ describe('When spinning words', () => {
 
     expect(result).toEqual(expected)
   })
-  it('should spin only words that are 5 letters and over', () => {
-    const result = spinWords('Stop Spinning My Words')
-    const expected = 'Stop gninnipS My sdroW'
+  it('should reverse the words if they are over 5 characters', () => {
+    const result = spinWords('Please spinning tomorrow');
+    const expected = 'esaelP gninnips worromot';
 
-    expect(result).toEqual(expected)
+    expect(result).toEqual(expected);
   })
 })
 
