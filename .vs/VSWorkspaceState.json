@@ -1,16 +1,14 @@
 {
   "ExpandedNodes": [
     "",
-    "\\hw4",
-    "\\hw4\\zeroes",
-    "\\hw4\\_submissions",
-    "\\hw4\\_submissions\\hewitt-amber",
-    "\\hw4\\_submissions\\hewitt-amber\\unique-order",
-    "\\hw4\\_submissions\\hewitt-amber\\unique-order\\4-TEMPLATE",
-    "\\hw4\\_submissions\\hewitt-amber\\unique-order\\4-TEMPLATE\\src",
-    "\\hw4\\_submissions\\hewitt-amber\\zeroes",
-    "\\hw4\\_submissions\\hewitt-amber\\zeroes\\4-TEMPLATE\\src"
+    "\\hw6\\spinning",
+    "\\hw6\\_submissions\\hewitt-amber",
+    "\\hw6\\_submissions\\hewitt-amber\\spinning",
+    "\\hw7",
+    "\\hw7\\_submissions",
+    "\\hw7\\_submissions\\hewitt-amber",
+    "\\hw7\\_submissions\\hewitt-amber\\camel-case"
   ],
-  "SelectedNode": "\\hw4\\_submissions\\hewitt-amber\\unique-order\\4-TEMPLATE\\src\\unique-order.test.js",
+  "SelectedNode": "\\hw7\\_submissions\\hewitt-amber\\camel-case\\README.md",
   "PreviewInSolutionExplorer": false
 }
