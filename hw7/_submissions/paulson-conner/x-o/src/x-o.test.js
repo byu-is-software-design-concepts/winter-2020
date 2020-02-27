@@ -7,5 +7,32 @@ describe('When validating the x and o count', () => {
 
     expect(result).toEqual(expected)
   })
-  // TODO: Write more tests
+
+  it('should handle test case 1', () => {
+    const result = isXAndOValid('ooxx')
+    const expected = true
+
+    expect(result).toEqual(expected)
+  })
+
+  it('should handle test case 2', () => {
+    const result = isXAndOValid('xoxx')
+    const expected = false
+
+    expect(result).toEqual(expected)
+  })
+
+  it('should handle test case 3', () => {
+    const result = isXAndOValid('xxooplkarjaja')
+    const expected = true
+
+    expect(result).toEqual(expected)
+  })
+
+  it('should return true for an empty string', () => {
+    const result = isXAndOValid('')
+    const expected = true
+
+    expect(result).toEqual(expected)
+  })
 })
