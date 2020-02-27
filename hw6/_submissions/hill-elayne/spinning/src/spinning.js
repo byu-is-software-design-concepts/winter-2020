@@ -1,3 +1,4 @@
+
 export const spinWords = sentence => {
   let words = sentence.split(" ")
   let iCount = 0
@@ -15,3 +16,4 @@ sentence = words.join(" ");
 
   return sentence
 }
+

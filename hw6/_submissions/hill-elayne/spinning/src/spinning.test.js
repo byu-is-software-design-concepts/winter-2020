@@ -14,3 +14,4 @@ describe('When spinning words', () => {
     expect(result).toEqual(expected);
   })
 })
+
