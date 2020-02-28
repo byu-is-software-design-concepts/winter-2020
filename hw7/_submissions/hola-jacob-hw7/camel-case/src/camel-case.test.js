@@ -7,11 +7,5 @@ describe('When converting to camel case', () => {
 
     expect(result).toEqual(expected)
   })
-  it('should convert words', () => {
-    const result = convertToCamelCase('long ago the four nations lived together in harmony')
-    const expected = 'longAgoTheFourNationsLivedTogetherInHarmony'
-
-    expect(result).toEqual(expected)
-  })
   // TODO: Write more tests
 })
