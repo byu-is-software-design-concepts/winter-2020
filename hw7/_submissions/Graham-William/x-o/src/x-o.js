@@ -1,7 +1,7 @@
-const isXAndOValid = str => {
+export const isXAndOValid = str => {
   // TODO
-  xCount = 0;
-  oCount = 0;
+  let xCount = 0;
+  let oCount = 0;
   for (let i = 0; i < str.length; i++) {
     if (str.charAt(i) == 'x') {
       xCount++
