@@ -1,6 +1,10 @@
 # Persistence
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> c6f3851efd15f94a00c78d2794247d2229c7ed28
 This assignment is to help you practice. Pretend we're doing a coding interview via email (bear with me here) 
 and you need to show me how you would work out the solution for this problem. Use comments and potentially 
 multiple iterations to markup your code with what you'd tell your interview. Try to use the concepts we talked 
@@ -23,6 +27,10 @@ This assignment is to help you practice. Pretend we're doing a coding interview 
 ## Interview Prompt
 
 <<<<<<< HEAD
+<<<<<<< HEAD
+=======
+
+>>>>>>> c6f3851efd15f94a00c78d2794247d2229c7ed28
 Write a function, persistence, that takes in a positive parameter `num` and returns its 
 multiplicative persistence, which is the number of times you must multiply the digits 
 in `num` until you reach a single digit.
