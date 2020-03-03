@@ -18,8 +18,18 @@ export const isXAndOValid = str => {
     
   }
 
+<<<<<<< HEAD
     
     return countX == countO;
   
+=======
+  if (countX == countO) {
+    return true
+  }
+  
+  else {
+    return false
+  }
+>>>>>>> c6f3851efd15f94a00c78d2794247d2229c7ed28
 
 }
