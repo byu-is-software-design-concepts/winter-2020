@@ -10,12 +10,12 @@ const partners = [
 ];
 // TODO: Create an array of all the pokemon trainer's names without using .map()
 const trainers = [];
-for (pair of partners) {
-  trainers.push(pair.trainer);
+for (p of partners) {
+  trainers.push(p.trainer);
 }
 
 // TODO: Create an array of all the pokemon names using .map()
-const pokemon = partners.map(pair => pair.pokemon);
+const pokemon = partners.map(p => p.pokemon);
 
 // .filter()
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter
