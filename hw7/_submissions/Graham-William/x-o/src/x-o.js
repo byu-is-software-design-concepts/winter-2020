@@ -9,9 +9,6 @@ export const isXAndOValid = str => {
     else if (str.charAt(i) == 'o') {
       oCount++
     }
-    else {
-      break;
-    }
   }
     if (oCount == xCount) {
       return true

@@ -7,5 +7,17 @@ describe('When converting to camel case', () => {
 
     expect(result).toEqual(expected)
   })
-  // TODO: Write more tests
+  it('should convert three or more words', () => {
+    const result = convertToCamelCase('hello case number three')
+    const expected = 'helloCaseNumberThree'
+
+    expect(result).toEqual(expected)
+  })
+  it('should change first capital to lowercase', () => {
+    const result = convertToCamelCase('Hello case three')
+    const expected = 'helloCaseThree'
+
+    expect(result).toEqual(expected)
+  })
+  
 })
