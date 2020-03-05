@@ -8,8 +8,20 @@ const pokemon = [
   { name: "Victreebel", trainer: "James" },
   { name: "Wobbuffet", trainer: "Jessie" }
 ];
-// TODO: Create an array of all the pokemon trainer's names without using .map()
-// TODO: Create an array of all the pokemon names using .map()
+
+// array of trainers without .map()
+let trainerName = [];
+pokemon.forEach(element => {
+  trainerName.push(element.trainer)
+});
+
+console.log(trainers);
+
+// array of pokemon names with .map()
+let pokemonName = pokemon.map(element => {
+  console.log(element.name);
+  return element.name;
+}
 
 // .filter()
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/filter
@@ -22,11 +34,40 @@ const monsters = [
   { name: "Randall Boggs", position: "Scarer" },
   { name: "Roz", position: "Undercover Agent" }
 ];
-// TODO: Create an array containing only Scarers without using .filter()
-// TODO: Create an array containing only non-Scarers using .filter()
+
+// array containing only Scarers without using .filter()
+ScarerName = [];
+monsters.forEach(element => {
+  if (scarer.position === "Scarer") {
+    ScarerName.push(element)
+}});
+
+console.log(ScarerName);
+
+
+// array containing only non-Scarers using .filter()
+const nonScarerName = monsters.filter(element => element.position !== 'Scarer')
+
+console.log(nonScarerName);
+
 
 // .reduce()
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce
 const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 11];
-// TODO: Sum the numbers in the following array without using .reduce()
-// TODO: Sum the numbers in the following array using .reduce()
+
+// Sum the numbers in the following array without using .reduce()
+let sumNum;
+for (let i = 0; i < numbers.length; i++) {
+  sumNum += numbers[i];
+}
+
+console.log(sumNum);
+
+
+// Sum the numbers in the following array using .reduce()
+let sumNumbers;
+sumNumbers = numbers.reduce((prev, actual) => (prev + actual)());
+
+console.log(sumNumbers);
+
+
