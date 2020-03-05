@@ -17,7 +17,7 @@ for (var i=0; i < pokemon.length; i++){
 
 // TODO: Create an array of all the pokemon names using .map()
 
-var withMapArray = pokemon.map(poke => poke.trainer);
+var withMapArray = pokemon.map(poke => poke.name);
 
 
 // .filter()
@@ -42,7 +42,7 @@ for (var i=0; i < monsters.length; i++){
 
 // TODO: Create an array containing only non-Scarers using .filter()
 
-var withFilterArray = monsters.filter(monster => monster.position === "Scarer")
+var withFilterArray = monsters.filter(monster => monster.position != "Scarer")
 
 // .reduce()
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce
