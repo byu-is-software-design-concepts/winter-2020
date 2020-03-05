@@ -33,6 +33,8 @@ singleton.addData(4);
 singletonJr.addData(3);
 singletonJr.addData(5);
 
+console.log(singleton.getData());
+
 console.log(singleton.id);
 console.log(singletonJr.id);
 
