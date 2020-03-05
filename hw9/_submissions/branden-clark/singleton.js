@@ -1,0 +1,1 @@
+//# sourceMappingURL=singleton.js.map
