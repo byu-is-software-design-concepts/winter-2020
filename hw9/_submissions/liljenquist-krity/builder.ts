@@ -2,7 +2,7 @@ class SandwichBuilder {
     public sandwich: Sandwich;
     constructor() {}
     public reset() {
-        this.sandwich = new Sandwich;
+        this.sandwich = new Sandwich();
     }
     public build() {
         // pass those attributes to sandwich
@@ -10,12 +10,15 @@ class SandwichBuilder {
     }
     public withBread() {
         this.sandwich.hasBread = true;
+        return this;
     }
     public withCondiments() {
         this.sandwich.hasCondiments = true;
+        return this;
     }
     public withMeat() {
         this.sandwich.hasMeat = true;
+        return this;
     }
 }
 
