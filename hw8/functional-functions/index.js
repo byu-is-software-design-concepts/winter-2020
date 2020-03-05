@@ -23,10 +23,10 @@ const monsters = [
   { name: "Roz", position: "Undercover Agent" }
 ];
 // TODO: Create an array containing only Scarers without using .filter()
-// TODO: Create an array containing only non-Scarers using .filter()
+// TODO: Create an array containing only non-Scares using .filter()
 
 // .reduce()
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce
 const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 11];
-// TODO: Sum the numbers in the following array without using .reduce()
+// TODO: Sum the numbers in the following array wiithout using .reduce()
 // TODO: Sum the numbers in the following array using .reduce()
