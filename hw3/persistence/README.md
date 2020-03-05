@@ -1,5 +1,6 @@
 # Persistence
 
+
 This assignment is to help you practice. Pretend we're doing a coding interview via email (bear with me here) 
 and you need to show me how you would work out the solution for this problem. Use comments and potentially 
 multiple iterations to markup your code with what you'd tell your interview. Try to use the concepts we talked 
@@ -17,6 +18,7 @@ about in class to approach the problem.
 8. Don’t give up!!! (I put some solutions in my submissions folder `clark-branden` if you need any hints a right direction.)
 
 ## Interview Prompt
+
 
 Write a function, persistence, that takes in a positive parameter `num` and returns its 
 multiplicative persistence, which is the number of times you must multiply the digits 
