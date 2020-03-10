@@ -1,6 +1,16 @@
 let getFizzBuzz = num => {
-  // TODO
-  return num
+  var result
+  if (num % 3 == 0 && num % 5 != 0) {
+    return 'Fizz'
+  }
+  if (num % 3 != 0 && num % 5 == 0) {
+    return 'Buzz'
+  }
+  if (num % 3 == 0 && num % 5 == 0) {
+    return 'FizzBuzz'
+  }
+
+   return num
 }
 
 ////////////////////////// tests //////////////////////////
