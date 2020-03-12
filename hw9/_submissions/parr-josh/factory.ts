@@ -8,13 +8,13 @@ class ShapeFactory {
       case 4:
         return new Square();
     }
-  };
+  }
 }
 
 abstract class Shape {
-  public numberOfSides: number;
+  public numberOfSide: number;
   constructor(sides: number) {
-    this.numberOfSides = sides;
+    this.numberOfSide = sides;
   }
 }
 
