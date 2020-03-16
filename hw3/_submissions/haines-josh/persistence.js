@@ -13,29 +13,29 @@ function persistence(num) {
   }
 
   //else we need to do some splitting
-//  else {
-//    var numArray = []
-//    for (let i = 0; i < stringify.length; i++){
-//      numArray.push(stringify.charAt(i))
-//      console.log(numArray)
-//    }
-//    for (let j = 0; j < numArray.length; j++){
-//
-//      times += 1
-//    }
+ else {
+   var numArray = []
+   for (let i = 0; i < stringify.length; i++){
+     numArray.push(stringify.charAt(i))
+     console.log(numArray)
+   }
+   for (let j = 0; j <= numArray.length; j++){
 
-//    return times;
-//  }
+     times += 1
+   }
 
-//give up and copy code from Branden. What the heck does reduce do!?!?
-  for (var i = 0; num > 9; i++) {
-    num = num
-      .toString()
-      .split("")
-      .reduce((t, c) => c * t);
-  }
-  return i;
+   return times;
+ }
 }
+//give up and copy code from Branden. What the heck does reduce do!?!?
+//   for (var i = 0; num > 9; i++) {
+//     num = num
+//       .toString()
+//       .split("")
+//       .reduce((t, c) => c * t);
+//   }
+//   return i;
+// }
 
 ////////////////////////// tests //////////////////////////
 
