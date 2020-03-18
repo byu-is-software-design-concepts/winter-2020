@@ -15,7 +15,12 @@ class Manager implements Employee {
     }
 
     pay() {
+        this.paySelf()
         return this.underlings.map(employee => employee.pay())
+    }
+
+    paySelf() {
+        return this.salary;
     }
 }
 
