@@ -1,4 +1,4 @@
-ls# Zeroes
+# Zeroes
 
 ## Setup
 
