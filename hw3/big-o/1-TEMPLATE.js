@@ -23,7 +23,7 @@ function recursiveFibonnacci(num) {
   if (num <= 1) return num;
   return fibonacci(num - 2) + fibonacci(num - 1);
 }
-
+ 
 function printFirstItemThenFirstHalfThenSayHi100Times(arr, size) {
   console.log("First element of array = %d\n", arr[0]);
 
