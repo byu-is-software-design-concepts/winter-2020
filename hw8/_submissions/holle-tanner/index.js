@@ -30,7 +30,6 @@ const monsters = [
   { name: "Roz", position: "Undercover Agent" }
 ];
 // TODO: Create an array containing only Scarers without using .filter()
-<<<<<<< HEAD
 const scarers = [];
 for (monster of monsters) {
   if (monster.position === "Scarer") {
@@ -41,20 +40,13 @@ console.log(scarers);
 // TODO: Create an array containing only non-Scarers using .filter()
 const nonScarers = monsters.filter(monster => monster.position !== "Scarer");
 
-=======
-// TODO: Create an array containing only non-Scares using .filter()
->>>>>>> a1ec13f88624eac63ebdfcf518c6fe4083611c54
 
 // .reduce()
 // https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array/Reduce
 const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 11];
-<<<<<<< HEAD
 // TODO: Sum the numbers in the following array without using .reduce()
 let sum = 0;
 numbers.forEach(number => (sum += number));
 
-=======
-// TODO: Sum the numbers in the following array wiithout using .reduce()
->>>>>>> a1ec13f88624eac63ebdfcf518c6fe4083611c54
 // TODO: Sum the numbers in the following array using .reduce()
 const sumReduce = numbers.reduce((acc, val) => acc + val);
