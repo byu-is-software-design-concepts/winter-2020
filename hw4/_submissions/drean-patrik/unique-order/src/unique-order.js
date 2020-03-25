@@ -1,4 +1,12 @@
 export const uniqueInOrder = str => {
+<<<<<<< HEAD
+  let arr = [];
+  // TODO
+  for (i = 0; i < arr.length; i++) {}
+
+  return arr;
+};
+=======
   let result = []
 
   str.split('').forEach((letter, index, array) => {
@@ -11,3 +19,4 @@ export const uniqueInOrder = str => {
 
   return result
 }
+>>>>>>> 36fd9ae43ab63342321d615adce09d7dc77d3bde
