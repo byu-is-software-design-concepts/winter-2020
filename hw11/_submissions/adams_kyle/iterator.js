@@ -1,3 +1,5 @@
+//from an online example on iterators
+
 let iterator = (function() {
 
 	let index = 0,
@@ -24,5 +26,5 @@ let iterator = (function() {
 		    	return data[index];
 		}
 	}
-
+	
 }());
